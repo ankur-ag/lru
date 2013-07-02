@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-@my_cache = Lru.Cache.new 10
+@my_cache = Lru::Cache.new 10
 
 #### example: caching multiples of 10
 
