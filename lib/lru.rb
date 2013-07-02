@@ -1,6 +1,9 @@
 require "lru/version"
 
 module Lru
+
+	autoload :LruList,  "lru/list"
+
 	class Cache
 
 		attr_reader :my_hash, :max_size
