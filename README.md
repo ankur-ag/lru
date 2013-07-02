@@ -1,4 +1,5 @@
-# Lru
+# LRU 
+####(least recently used eviction policy)
 
 * The class should provides 2 public instance methods: put(key, value) and get(key). 
 * Key and value can be arbitrary objects 
@@ -21,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-@my_cache = Lru.Cache.new 10
+@my_cache = Lru::Cache.new 10
 
 #### example: caching multiples of 10
 
