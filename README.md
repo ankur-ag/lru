@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+@my_cache = Lru.Cache.new 10
+
+# example: caching multiples of 10
+@my_cache.put 1, 10
+@my_cache.put 3, 30
+@my_cache.put 9, 90
+@my_cache.get 3 	# 30
+@my_cache.get 4		# nil
 
 ## Contributing
 
