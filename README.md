@@ -1,7 +1,7 @@
 # LRU 
 ####(least recently used eviction policy)
 
-* The class should provides 2 public instance methods: put(key, value) and get(key). 
+* The implementation provides 2 public instance methods: put(key, value) and get(key). 
 * Key and value can be arbitrary objects 
 * Get will return nil if there is no such key in the cache.
 * The maximum number of elements in the cache is configurable at instantiation time.
