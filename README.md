@@ -1,6 +1,9 @@
 # Lru
 
-TODO: Write a gem description
+* The class should provides 2 public instance methods: put(key, value) and get(key). 
+* Key and value can be arbitrary objects 
+* Get will return nil if there is no such key in the cache.
+* The maximum number of elements in the cache is configurable at instantiation time.
 
 ## Installation
 
@@ -20,11 +23,16 @@ Or install it yourself as:
 
 @my_cache = Lru.Cache.new 10
 
-# example: caching multiples of 10
+#### example: caching multiples of 10
+
 @my_cache.put 1, 10
+
 @my_cache.put 3, 30
+
 @my_cache.put 9, 90
+
 @my_cache.get 3 	# 30
+
 @my_cache.get 4		# nil
 
 ## Contributing
