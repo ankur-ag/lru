@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Lru::VERSION
   spec.authors       = ["ankur@leaf.me"]
   spec.email         = ["ankur@leaf.me"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{LRU cache implementation}
+  spec.summary       = %q{LRU cache implementation}
   spec.homepage      = ""
   spec.license       = "MIT"
 

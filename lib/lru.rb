@@ -2,7 +2,7 @@ require "lru/version"
 
 module Lru
 
-	autoload :LruList,  "lru/list"
+	autoload :LruList,  "lru/lru_list"
 
 	class Cache
 
