@@ -1,4 +1,4 @@
-# Lru
+# LRU ("least recently used eviction policy")
 
 * The class should provides 2 public instance methods: put(key, value) and get(key). 
 * Key and value can be arbitrary objects 
